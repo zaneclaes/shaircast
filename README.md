@@ -1,10 +1,10 @@
-# AirCast
-Airplay -> Multi-Room Audio (Snapcast &amp; Shairport Sync in one docker container)
+# ShairCast
+Airplay -> Multi-Room Audio (`shairport-sync` -> `snapserver` in one docker container)
 
 Available in two flavours:
 
-* `inzania/aircast:amd64`
-* `inzania/aircast:armhf`
+* `inzania/shaircast:amd64`
+* `inzania/shaircast:armhf`
 
 You can mount your own `snapserver` config file at `/etc/snapserver.conf` (see included example file).
 
